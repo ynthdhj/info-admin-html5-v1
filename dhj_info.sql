@@ -27,7 +27,7 @@ CREATE TABLE `admin` (
   `createdate` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `username` (`username`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='admin用户的密码为 ynthdhj123456';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='admin用户的密码为 ';
 
 /*Data for the table `admin` */
 
