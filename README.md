@@ -2,10 +2,11 @@
 
 #### 介绍
 完整的超级用户管理端：
-spring boot3.15、Security6 、原生jpa、雪花算法id、thymeleaf模板、html5响应式网页（自适应电脑和手机）。
+spring boot3.15、Security6 、原生jpa、雪花算法id、thymeleaf模板、html5响应式网页（自适应电脑和手机）、ckeditor4图文混排 + 本地文件上传。
+高性能web容器配置（不使用tomcat）、解决了打包后的文件上传问题。
 
 #### 软件架构
-软件架构说明
+可以用来快速搭建应用系统。
 
 
 #### 安装教程
@@ -20,6 +21,11 @@ spring boot3.15、Security6 、原生jpa、雪花算法id、thymeleaf模板、ht
 2.  打开本机网站： http://127.0.0.1:8080/admin/login
 3.  用户名：admin1 密码： 123456
 
+#### 联系方式与建议
+
+qq:740836
+email: 740836@qq.com
+address: 云南省昆明市
 
 #### 参与贡献
 
