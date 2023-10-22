@@ -1,8 +1,9 @@
 package com.info.core.snowflow;
 
-/**
- * 加入了时钟回拨解决方法
- * @author 段洪杰
+/*
+ *  @作者 段红杰
+ *  QQ: 740836
+ *  说明：可以任意修改、可以商用，但是需要保留此信息
  */
 public class SnowFlow {
 	// 因为二进制里第一个 bit 为如果是 1，那么都是负数，但是我们生成的 id 都是正数，所以第一个 bit 统一都是 0。
