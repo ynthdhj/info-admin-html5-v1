@@ -10,11 +10,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 
-/**
+/* 
  * 解决雪花算法id传到前端数据丢失的问题
  *
  */
-/*
+/**
  *  @作者 段红杰
  *  QQ: 740836
  *  说明：可以任意修改、可以商用，但是需要保留此信息

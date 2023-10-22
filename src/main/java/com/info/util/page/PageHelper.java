@@ -2,7 +2,7 @@ package com.info.util.page;
 
 import org.springframework.data.domain.Page;
 
-/*
+/**
  *  @作者 段红杰
  *  QQ: 740836
  *  说明：可以任意修改、可以商用，但是需要保留此信息
