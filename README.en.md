@@ -17,6 +17,7 @@ Software architecture description
 
 1. Running in eclipse (or other development tools)
 2. Open the local website: http://127.0.0.1:8080/admin/login
+3. username：admin1  passwd： 123456
 
 #### Contribution
 

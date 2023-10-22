@@ -27,12 +27,13 @@ CREATE TABLE `admin` (
   `createdate` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `username` (`username`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='admin用户的密码为 ';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='admin用户的密码为  ';
 
 /*Data for the table `admin` */
 
 insert  into `admin`(`id`,`username`,`password`,`createdate`) values 
-(1099112515322908672,'admin','$2a$10$EabpPDx5szRwXytJexY8e.rZ2FzVsqdYU5Os9C0mOvmHPTQURPI/2','2023-06-04 12:37:43');
+(1099112515322908672,'admin','$2a$10$EabpPDx5szRwXytJexY8e.rZ2FzVsqdYU5Os9C0mOvmHPTQURPI/2','2023-06-04 12:37:43'),
+(1165774143208165377,'admin1','$2a$10$Cio1BlFqf6/Q6B6LE1hLXeslSt4XvONrpLgX0gRdr/FCmsZzdRVJ.','2023-10-22 22:10:15');
 
 /*Table structure for table `basepage` */
 
@@ -194,9 +195,6 @@ CREATE TABLE `manage` (
   `phone` varchar(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
-  `company` varchar(255) DEFAULT NULL,
-  `address` varchar(255) DEFAULT NULL,
-  `logo` varchar(255) DEFAULT NULL,
   `message` text,
   `createdate` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -204,6 +202,10 @@ CREATE TABLE `manage` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户表';
 
 /*Data for the table `manage` */
+
+insert  into `manage`(`id`,`phone`,`name`,`password`,`message`,`createdate`) values 
+(1159592285902606336,'18288292540','uu','$2a$10$xImQFLTVMLzQ1mh/Y4idd.HMu3pflxA8bK5fetIMgM0Jrt773Y8u2','<p>11</p>\r\n','2023-10-05 20:45:45'),
+(1159594197762838529,'18288292541','张三0','$2a$10$AlmVagTJYhU1MH6QGTx2teNlQAy/FxJiiiS8L6Lc/4X71isDexzc2','<p>sddasfaf <strong>你好</strong> ！！！！0</p>\r\n','2023-10-05 20:53:21');
 
 /*Table structure for table `role` */
 

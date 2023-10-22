@@ -18,6 +18,7 @@ spring boot3.15、Security6 、原生jpa、雪花算法id、thymeleaf模板、ht
 
 1.  eclipse(或其它开发工具) 中运行 
 2.  打开本机网站： http://127.0.0.1:8080/admin/login
+3.  用户名：admin1 密码： 123456
 
 
 #### 参与贡献
