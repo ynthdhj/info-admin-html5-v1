@@ -2,7 +2,7 @@
 
 #### 介绍
 完整的超级用户管理端：
-spring boot3.15、Security6 、原生jpa、、雪花算法id、thymeleaf模板、html5响应式网页（自适应电脑和手机）。
+spring boot3.15、Security6 、原生jpa、雪花算法id、thymeleaf模板、html5响应式网页（自适应电脑和手机）。
 
 #### 软件架构
 软件架构说明
