@@ -1,8 +1,8 @@
 # spring boot3.x 超级用户管理端
 
 #### Description
-完整的超级用户管理端：
-spring boot3.15、Security6 、原生jpa、、雪花算法id、thymeleaf模板、html5响应式网页（自适应电脑和手机）。
+Complete Super User Management:
+pring boot3.15, Security6, jpa, snowflake id, thymeneaf template, html5 responsive web pages (adaptive computers and phones).
 
 #### Software Architecture
 Software architecture description
