@@ -1,0 +1,52 @@
+
+<div id="content">
+	<div id="content-header">
+		<div id="breadcrumb">
+			<a href="#" title="Go to Home" class="tip-bottom"><i
+				class="icon-home"></i> 后台管理</a> <a href="#">管理分类0</a> <a href="#"
+				class="current">新建分类0</a>
+		</div>
+		<h1>管理分类0</h1>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="widget-box">
+					<div class="widget-title">
+						<span class="icon"> <i class="icon-info-sign"></i>
+						</span>
+						<h5>新建分类0</h5>
+					</div>
+
+					<div class="widget-content nopadding">
+
+						<div th:if="${param.success}">
+							<div>
+								<div class="alert alert-info">录入完成!</div>
+							</div>
+						</div>
+
+						<form class="form-horizontal" method="post"
+							th:action="@{/admin/key0/save}" th:object="${key0Dto}"
+							name="basic_validate" id="basic_validate" novalidate="novalidate">
+							<div class="control-group">
+								<label class="control-label">名称</label>
+								<div class="controls">
+									<input class="span11" type="text" name="name" id="name"
+										th:field="*{name}">
+									<p style="color: Crimson;" th:errors="*{name}"
+										th:if="${#fields.hasErrors('name')}"></p>
+								</div>
+							</div>
+
+							<div class="form-actions">
+								<input type="submit" value=" 录入 " class="btn btn-success">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

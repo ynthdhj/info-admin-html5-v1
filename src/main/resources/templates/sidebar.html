@@ -1,0 +1,135 @@
+
+<div id="sidebar">
+	<a href="#" class="visible-phone"><i class="icon icon-home"></i>
+		主菜单</a>
+	<ul>
+		<li class="active" th:if="${uri}=='dashboard'"><a
+			href="/admin/dashboard"><i class="icon icon-dashboard"></i> <span>控制面板</span></a>
+		</li>
+
+
+		<li th:if="${uri}!='dashboard'"><a href="/admin/dashboard"><i
+				class="icon icon-dashboard"></i> <span>控制面板</span></a></li>
+
+
+
+		<li class="submenu active" th:if="${uri}=='admin'"><a href="#"><i
+				class="icon icon-th-list"></i><span>超级用户</span> </a>
+			<ul>
+				<li><a href="/admin/admin/add">增加用户</a></li>
+				<li><a href="/admin/admin/all">管理用户</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='admin'"><a href="#"><i
+				class="icon icon-th-list"></i><span>超级用户</span> </a>
+			<ul>
+				<li><a href="/admin/admin/add">增加用户</a></li>
+				<li><a href="/admin/admin/all">管理用户</a></li>
+			</ul></li>
+
+		<li class="submenu active" th:if="${uri}=='manage'"><a href="#"><i
+				class="icon icon-th-list"></i><span>网站管理员</span> </a>
+			<ul>
+				<li><a href="/admin/manage/add">增加管理员</a></li>
+				<li><a href="/admin/manage/list/1">管理管理员</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='manage'"><a href="#"><i
+				class="icon icon-th-list"></i><span>网站管理员</span> </a>
+			<ul>
+				<li><a href="/admin/manage/add">增加管理员</a></li>
+				<li><a href="/admin/manage/list/1">管理管理员</a></li>
+			</ul></li>
+
+
+
+		<li class="submenu active" th:if="${uri}=='board'"><a href="#"><i
+				class="icon icon-th-list"></i><span>栏目管理</span> </a>
+			<ul>
+				<li><a href="/admin/board/add">增加栏目</a></li>
+				<li><a href="/admin/board/all">管理栏目</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='board'"><a href="#"><i
+				class="icon icon-th-list"></i><span>栏目管理</span> </a>
+			<ul>
+				<li><a href="/admin/board/add">增加栏目</a></li>
+				<li><a href="/admin/board/all">管理栏目</a></li>
+			</ul></li>
+
+
+		<li class="submenu active" th:if="${uri}=='circle'"><a href="#"><i
+				class="icon icon-th-list"></i><span>圈子管理</span> </a>
+			<ul>
+				<li><a href="/admin/circle/add">增加圈子</a></li>
+				<li><a href="/admin/circle/all">管理圈子</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='circle'"><a href="#"><i
+				class="icon icon-th-list"></i><span>圈子管理</span> </a>
+			<ul>
+				<li><a href="/admin/circle/add">增加圈子</a></li>
+				<li><a href="/admin/circle/all">管理圈子</a></li>
+			</ul></li>
+
+
+		<li class="submenu active" th:if="${uri}=='key0'"><a href="#"><i
+				class="icon icon-th-list"></i><span>分类0管理</span> </a>
+			<ul>
+				<li><a href="/admin/key0/add">增加分类0</a></li>
+				<li><a href="/admin/key0/all">管理分类0</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='key0'"><a href="#"><i
+				class="icon icon-th-list"></i><span>分类0管理</span> </a>
+			<ul>
+				<li><a href="/admin/key0/add">增加分类0</a></li>
+				<li><a href="/admin/key0/all">管理分类0</a></li>
+			</ul></li>
+
+
+		<li class="submenu active" th:if="${uri}=='key1'"><a href="#"><i
+				class="icon icon-th-list"></i><span>分类1管理</span> </a>
+			<ul>
+				<li><a href="/admin/key1/add">增加分类1</a></li>
+				<li><a href="/admin/key1/all">管理分类1</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='key1'"><a href="#"><i
+				class="icon icon-th-list"></i><span>分类1管理</span> </a>
+			<ul>
+				<li><a href="/admin/key1/add">增加分类1</a></li>
+				<li><a href="/admin/key1/all">管理分类1</a></li>
+			</ul></li>
+
+
+		<li class="submenu active" th:if="${uri}=='key2'"><a href="#"><i
+				class="icon icon-th-list"></i><span>分类2管理</span> </a>
+			<ul>
+				<li><a href="/admin/key2/add">增加分类2</a></li>
+				<li><a href="/admin/key2/all">管理分类2</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='key2'"><a href="#"><i
+				class="icon icon-th-list"></i><span>分类2管理</span> </a>
+			<ul>
+				<li><a href="/admin/key2/add">增加分类2</a></li>
+				<li><a href="/admin/key2/all">管理分类2</a></li>
+			</ul></li>
+
+		<li class="submenu active" th:if="${uri}=='basepage'"><a href="#"><i
+				class="icon icon-th-list"></i><span>基础页管理</span> </a>
+			<ul>
+				<li><a href="/admin/basepage/add">增加基础页</a></li>
+				<li><a href="/admin/basepage/list/1">管理基础页</a></li>
+			</ul></li>
+		<li class="submenu" th:if="${uri}!='basepage'"><a href="#"><i
+				class="icon icon-th-list"></i><span>基础页管理</span> </a>
+			<ul>
+				<li><a href="/admin/basepage/add">增加基础页</a></li>
+				<li><a href="/admin/basepage/list/1">管理基础页</a></li>
+			</ul></li>
+
+
+		<li class="submenu"><a href="#"><i class="icon icon-signout"></i>
+				<span>安全退出</span> </a>
+			<ul>
+				<li><a href="/admin/logout">安全退出</a></li>
+			</ul></li>
+
+
+	</ul>
+</div>

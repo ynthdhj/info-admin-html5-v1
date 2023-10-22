@@ -1,0 +1,25 @@
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 后台管理</a> <a href="#">管理基础页</a> <a href="#" class="current">操作提示</a> </div>
+    <!-- h3>提示信息</h3 -->
+  </div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+            <h5>提示信息</h5>
+          </div>
+          <div class="widget-content">
+            <div class="error_ex"><BR/>
+              <h2>[(${message})]</h2>
+              <!-- h3>Something is wrong here. Method not allowed!</h3 -->
+              <!-- p>Access to this page is forbidden</p -->
+			  <BR/><BR/>
+              <a th:class="${btn_color_class}"  th:href="${back}"> 返回 </a> </div><BR/><BR/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
