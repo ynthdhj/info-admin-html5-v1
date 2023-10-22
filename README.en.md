@@ -9,15 +9,14 @@ Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. After installing the MySQL database, import the database dhj_ Info.sql
+2. Install eclipse (or other development tools) and import the project
+3. Operation
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Running in eclipse (or other development tools)
+2. Open the local website: http://127.0.0.1:8080/admin/login
 
 #### Contribution
 
