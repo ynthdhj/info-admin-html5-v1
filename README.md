@@ -10,15 +10,15 @@ spring boot3.15、Security6 、原生jpa、、雪花算法id、thymeleaf模板�
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装mysql数据库后，导入数据库dhj_info.sql
+2.  安装eclipse(或其它开发工具)，导入工程
+3.  运行
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  eclipse(或其它开发工具) 中运行 
+2.  打开本机网站： http://127.0.0.1:8080/admin/login
+
 
 #### 参与贡献
 
